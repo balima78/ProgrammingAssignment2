@@ -17,7 +17,7 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## this second function calculates the inverse (solved) matrix if it is not exist and return the result
+## this second function calculates the inverse (solved) matrix if it not exist and return the result
 
 cacheSolve <- function(x, ...) {
   m<-x$getmatrix()
